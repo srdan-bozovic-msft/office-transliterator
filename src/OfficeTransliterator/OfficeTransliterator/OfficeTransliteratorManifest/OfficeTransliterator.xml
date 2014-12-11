@@ -3,10 +3,15 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
   <Id>ab672d31-fd46-4734-ae7d-3672dd0f4c53</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>[Provider name]</ProviderName>
+  <ProviderName>Srđan Božović</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Office Transliterator" />
   <Description DefaultValue="Office Transliterator"/>
+  <IconUrl DefaultValue="~remoteAppUrl/Images/Icon.png" />
+  <!--The HighResolutionIcon element is commented because it is valid only for 1.1 (or above) versions of the manifest.
+      To use this property, convert this manifest to version 1.1 by adding an API set in the Activation tab of the manifest editor.-->
+  <!--<HighResolutionIconUrl DefaultValue="~remoteAppUrl/Images/LargeIcon.png" />-->
+  <SupportUrl DefaultValue="https://github.com/srdjan-bozovic/office-transliterator/blob/master/README.md" />
   <Capabilities>
     <Capability Name="Workbook" />
     <Capability Name="Presentation" />

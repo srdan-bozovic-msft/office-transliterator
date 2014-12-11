@@ -20,6 +20,7 @@
     <CspkgPartId>{b5a43fd6-e50c-4a51-a354-bd5fd1c65467}</CspkgPartId>
     <SqlPackagePartId>{526d5790-5344-4e20-9d9f-0dd4be7e8a6e}</SqlPackagePartId>
     <ProjectMode>OfficeApp</ProjectMode>
+    <ActivePublishProfile>office-transliterator</ActivePublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
