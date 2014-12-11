@@ -15,7 +15,6 @@
   <Capabilities>
     <Capability Name="Workbook" />
     <Capability Name="Presentation" />
-    <Capability Name="Project" />
     <Capability Name="Document" />
   </Capabilities>
   <DefaultSettings>
