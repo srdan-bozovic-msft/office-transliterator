@@ -27,6 +27,10 @@ var app = (function () {
             $('#notification-message-body').text(text);
             $('#notification-message').slideDown('fast');
         };
+
+        app.hideNotification = function () {
+            $('#notification-message').hide();
+        };
     };
 
     return app;
